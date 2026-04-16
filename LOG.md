@@ -1,4 +1,4 @@
-## Day 0 - 2026-04-15
+## Day 1 - 2026-04-15
 **Today:** WIP: Learned about modules and importing datetime instead of date utils and how to use strptime to extract the date from LOG.md. 
 
 **Stuck on:** Day 1: Parsing a string in LOG.md as a variable
