@@ -1,3 +1,13 @@
+## Day 3 - 2026-04-17
+**Today:** Worked on streak.py and succesfully calculated the streak. Repeated code for practice.
+
+**Stuck on:** 
+
+## Day 2 - 2026-04-16
+**Today:** Worked on understanding script and succesfully created an array holding days of the year
+
+**Stuck on:** Initializing a list to hold dates, stuck on streak.py calculation
+
 ## Day 1 - 2026-04-15
 **Today:** WIP: Learned about modules and importing datetime instead of date utils and how to use strptime to extract the date from LOG.md. 
 

@@ -1,6 +1,6 @@
 #Code Architecture
 
-#Plan: Open LOG.md and read lines, extract date line, target date line to calculate streak
+#Plan: Open LOG.md and read lines, extract date line, split and parese line, then append and target date to streak list
 
 import datetime as datetime
 
