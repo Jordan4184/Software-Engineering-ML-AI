@@ -1,7 +1,7 @@
 ## Day 3 - 2026-04-17
 **Today:** Worked on streak.py and succesfully calculated the streak. Repeated code for practice.
 
-**Stuck on:** 
+**Stuck on:** Nothing, mini-project completed
 
 ## Day 2 - 2026-04-16
 **Today:** Worked on understanding script and succesfully created an array holding days of the year
