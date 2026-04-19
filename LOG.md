@@ -1,3 +1,8 @@
+## Day 4 - 2026-04-18
+**Today:** Worked on streak.py and am building out a task manager framework
+
+**Stuck on:** Nothing, will build a task manager tomorrow to track progress. 
+
 ## Day 3 - 2026-04-17
 **Today:** Worked on streak.py and succesfully calculated the streak. Repeated code for practice.
 
