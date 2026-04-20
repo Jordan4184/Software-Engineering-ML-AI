@@ -1,15 +1,18 @@
 ## CLI task manager inteded to serve as a reminder of todays tasks. Includes adding tasks, editing, and deleting tasks
 
-## Header
-print('Welcome to Task Manager')
-print('Enter The Task:')
+## Initiate list of to-do's 
+todo_list = []
+print("Enter your tasks (type 'quit' to stop):")
 
-## Input Fiedld
-i = input()
+## Core Logic
+while True:
+    task = input("> ")
+    if task.lower() == 'quit':
+        break
+    todo_list.append(task)
 
-#Print Statement
-print('Current Tasks: ')
-print(f'* {i}')
+## Print statement:
+print("Your To-Do List:", todo_list)
 
 #Saving a Task to JSON
 
