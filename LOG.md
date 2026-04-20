@@ -1,3 +1,8 @@
+## Day 5 - 2026-04-19
+**Today:** Do exercism tasks 1-3. write streak.py from memory. Work on task manager. Implement JSON for session persistence. 
+
+**Stuck on:** JSON implementation
+
 ## Day 4 - 2026-04-18
 **Today:** Worked on streak.py and am building out a task manager framework
 
