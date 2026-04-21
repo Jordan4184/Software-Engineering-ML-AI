@@ -1,4 +1,5 @@
 ## CLI task manager inteded to serve as a reminder of todays tasks. Includes adding tasks, editing, and deleting tasks
+import json
 
 ## Initiate list of to-do's 
 todo_list = []
@@ -12,9 +13,18 @@ while True:
     todo_list.append(task)
 
 ## Print statement:
-print("Your To-Do List:", todo_list)
+print("Your To-Do List: \n")
 
 #Saving a Task to JSON
+data = todo_list
+
+with open("data.json", "w") as file:
+    json.dump(data, file, indent=4)
+
+with open("data.json", "r") as infile:
+    data = json.load(infile)
+
+print(data)
 
 ## Editing a Task
 
