@@ -1,13 +1,6 @@
-def fizzbuzz(n):
-    for num in range(1, n + 1):
-        if num % 3 == 0 and num % 5 == 0:
-            print("fizzbuzz")
-        elif num % 3 == 0:
-            print("Fizz")
-        elif num % 5 == 0:
-            print("Buzz")
-        else:
-            print(num)
+forward_list = "test"
+reverse_list = ""
 
-
-fizzbuzz(20)
+for char in forward_list:
+    reverse_list = char + reverse_list
+print(reverse_list)
