@@ -1,6 +1,7 @@
-forward_list = "test"
-reverse_list = ""
+forward_string = "reverse"
+reverse_string = ""
 
-for char in forward_list:
-    reverse_list = char + reverse_list
-print(reverse_list)
+for letter in forward_string:
+    reverse_string = letter + forward_string
+
+print(reverse_string)
