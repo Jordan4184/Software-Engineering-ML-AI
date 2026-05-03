@@ -1,17 +1,19 @@
-## Logic: Add card. List collection. Save to JSON
+import json
 
-## Add a card: use a for loop to ask what card they want to enter
-list_of_cards = []
+try:
+    with open("collection.json", "r") as f:
+        list_of_cards = json.load(f)
+except (FileNotFoundError, json.JSONDecodeError):
+    list_of_cards = []
 
 while True:
     card_entry = input("Enter your card: ")
     if card_entry == "quit":
         break
     list_of_cards.append(card_entry)
-print(f"Your list of cards: {list_of_cards}")
 
-##Save list to JSON when user quits
-import json
+for i, card in enumerate(list_of_cards, 1):
+    print(f"{i}. {card}")
 
 with open("collection.json", "w") as f:
     json.dump(list_of_cards, f, indent=4)
